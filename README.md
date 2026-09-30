@@ -9,9 +9,9 @@ The system extracts MFCC (Mel-Frequency Cepstral Coefficient) features from spee
 The project also includes a Streamlit web application where users can upload a WAV audio file and receive the predicted emotion.
 
 ---
-# 🎙️ Emotion Recognition from Speech
 
-[![live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/)
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/)
+## 🌐 Live Demo
 
 ---
 
