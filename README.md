@@ -10,7 +10,7 @@ The project also includes a Streamlit web application where users can upload a W
 
 ---
 
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/)
+[![Live Demo](https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/)
 ## 🌐 Live Demo
 
 ---
