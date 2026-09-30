@@ -1,17 +1,22 @@
-# 🎙️ Speech Emotion Recognition from Speech
+# 🎙️ Emotion Recognition from Speech
 
-## 📌 Project Overview
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/)
 
-Speech Emotion Recognition is a Machine Learning project that analyzes human speech and predicts the emotion expressed in the audio.
+## 🌐 Live Demo
 
-The system extracts MFCC (Mel-Frequency Cepstral Coefficient) features from speech audio and uses a Convolutional Neural Network (CNN) to classify the speech into different emotional categories.
+🚀 **Try the project online:**
 
-The project also includes a Streamlit web application where users can upload a WAV audio file and receive the predicted emotion.
+👉 https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/
 
 ---
 
-[![Live Demo](https://emotion-recognition-from-speech-xgdvrdhsvxeuapufeajbef.streamlit.app/)
-## 🌐 Live Demo
+## 📌 Project Overview
+
+Emotion Recognition from Speech is a Machine Learning and Deep Learning project that analyzes human speech and predicts the emotion expressed in the audio.
+
+The system extracts **MFCC (Mel-Frequency Cepstral Coefficient)** features from speech audio and uses a **Convolutional Neural Network (CNN)** to classify the speech into different emotional categories.
+
+The project also includes a **Streamlit web application** where users can upload a WAV audio file and receive the predicted emotion.
 
 ---
 
@@ -19,16 +24,16 @@ The project also includes a Streamlit web application where users can upload a W
 
 The main objective of this project is to develop a speech emotion recognition system using Machine Learning and Deep Learning techniques.
 
-The system can classify speech into the following emotions:
+The model can classify speech into the following emotions:
 
-- Angry
-- Calm
-- Disgust
-- Fearful
-- Happy
-- Neutral
-- Sad
-- Surprised
+- 😠 Angry
+- 😌 Calm
+- 🤢 Disgust
+- 😨 Fearful
+- 😊 Happy
+- 😐 Neutral
+- 😢 Sad
+- 😲 Surprised
 
 ---
 
@@ -39,9 +44,10 @@ The system can classify speech into the following emotions:
 - 🔊 Audio playback
 - 🧠 CNN-based emotion classification
 - 🎚️ MFCC feature extraction
-- 📊 Emotion probability display
+- 📊 Emotion prediction
 - 📈 Model evaluation
 - 🌐 Streamlit web interface
+- 🚀 Live deployment using Streamlit Community Cloud
 
 ---
 
@@ -58,18 +64,47 @@ The system can classify speech into the following emotions:
 
 ---
 
+## 🧠 Machine Learning Approach
+
+### 1. Audio Input
+
+The user provides a speech audio file in WAV format.
+
+### 2. Feature Extraction
+
+The system uses **MFCC features** to represent important characteristics of the speech signal.
+
+### 3. CNN Model
+
+The extracted MFCC features are given to a Convolutional Neural Network.
+
+The CNN learns patterns from the speech features and predicts the corresponding emotion.
+
+### 4. Emotion Prediction
+
+The trained model predicts one of eight emotions:
+
+**Angry, Calm, Disgust, Fearful, Happy, Neutral, Sad, Surprised**
+
+---
+
+## 📊 Model Performance
+
+The trained CNN model achieved approximately **41% test accuracy** on the evaluation dataset.
+
+The performance can vary depending on the training configuration and audio input.
+
+---
+
 ## 📂 Project Structure
 
 ```text
-Emotion Recognition from Speech
+Emotion-Recognition-from-Speech
 │
 ├── app.py
+├── README.md
 ├── requirements.txt
 ├── .gitignore
-│
-├── dataset/
-│   └── archive/
-│       └── audio_speech_actors_01-24/
 │
 ├── model/
 │   └── emotion_model.keras
@@ -78,4 +113,6 @@ Emotion Recognition from Speech
 │   ├── train.py
 │   └── predict.py
 │
-└── venv/
+└── dataset/
+    └── archive/
+        └── audio_speech_actors_01-24/
